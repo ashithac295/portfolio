@@ -61,11 +61,16 @@ export default function Home() {
           </div>
 
           {/* Mobile Hamburger */}
-          <div className="md:hidden">
-            <button onClick={() => setMenuOpen(!menuOpen)} className="text-3xl focus:outline-none">
-              {menuOpen ? <HiX /> : <HiMenu />}
-            </button>
-          </div>
+          {/* Mobile Hamburger */}
+<div className="md:hidden fixed top-4 right-4 z-50">
+  <button
+    onClick={() => setMenuOpen(!menuOpen)}
+    className="text-3xl text-white focus:outline-none"
+  >
+    {menuOpen ? <HiX /> : <HiMenu />}
+  </button>
+</div>
+
         </div>
 
         {/* Mobile Overlay Menu */}
