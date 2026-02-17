@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { HiOutlineMail } from "react-icons/hi";
+
 
 const roles = [
   'Backend Developer',
@@ -43,6 +45,17 @@ export default function HeroPage() {
       className="min-h-screen flex flex-col justify-center py-24 font-ibm text-white bg-[#0f0f0f] px-4"
       style={{ fontFamily: '"IBM Plex Mono", monospace' }}
     >
+      <div className="absolute top-15 right-6">
+  <a
+    href="/resume/ASHITHA-C_Software Developer.pdf"
+    download
+    className="flex items-center gap-2 px-6 py-2 bg-indigo-600 hover:bg-indigo-700 transition-all duration-300 rounded-lg text-sm font-semibold shadow-lg"
+  >
+    <HiOutlineMail className="text-lg" />
+    Download Resume
+  </a>
+</div>
+
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
