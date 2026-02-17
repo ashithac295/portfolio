@@ -7,7 +7,7 @@ import Contact from '@/components/Contact';
 
 export default function Home() {
 return (
-<main className="mx-auto max-w-6xl px-4">
+<main className=" bg-black text-white">
 <Hero />
 <About />
 <Skills />
