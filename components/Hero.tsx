@@ -45,7 +45,7 @@ export default function HeroPage() {
       className="min-h-screen flex flex-col justify-center py-24 font-ibm text-white bg-[#0f0f0f] px-4"
       style={{ fontFamily: '"IBM Plex Mono", monospace' }}
     >
-      <div className="absolute top-15 right-6">
+      <div className="absolute top-20 right-6">
   <a
     href="/resume/ASHITHA-C_Software Developer.pdf"
     download
