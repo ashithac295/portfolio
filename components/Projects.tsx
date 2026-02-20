@@ -7,10 +7,10 @@ export default function Projects() {
       id="projects"
       className="py-24 px-4 font-ibm text-white bg-[#0f0f0f]"
       style={{ fontFamily: '"IBM Plex Mono", monospace' }}
-    >
-      <h2 className="text-3xl md:text-4xl font-semibold text-indigo-500">
-        Projects
-      </h2>
+    ><center>
+        <h2 className="text-3xl md:text-4xl font-semibold text-indigo-500">
+          Projects
+        </h2></center>
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project) => (
