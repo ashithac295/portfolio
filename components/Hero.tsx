@@ -42,7 +42,7 @@ export default function HeroPage() {
 
   return (
     <section
-      className="min-h-screen flex flex-col justify-center py-24 font-ibm text-white bg-[#0f0f0f] px-4"
+      className="min-h-screen flex flex-col justify-center py-24 font-ibm text-white bg-[#0a0f1c] px-4"
       style={{ fontFamily: '"IBM Plex Mono", monospace' }}
     >
       <div className="absolute top-25 right-6">

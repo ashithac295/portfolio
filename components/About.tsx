@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-24 px-4 font-ibm text-white bg-[#0f0f0f]"
+      className="py-24 px-4 font-ibm text-white bg-[#0a0f1c]"
       style={{ fontFamily: '"IBM Plex Mono", monospace' }}
     ><center>
         <h2 className="text-3xl md:text-4xl font-semibold text-indigo-500">
